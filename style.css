@@ -57,6 +57,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.result h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 .logo {
   width: 200px;
   object-fit: cover;
