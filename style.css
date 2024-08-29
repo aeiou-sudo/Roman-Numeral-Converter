@@ -59,9 +59,9 @@ body {
 }
 .result h2 {
   font-size: 1rem;
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
+  text-align: center;
 }
 .logo {
   width: 200px;
