@@ -1,6 +1,6 @@
 const numberInput = document.getElementById('number');
 const convertButton = document.getElementById('convert-btn');
-const resultText = document.getElementById('result-text');
+const resultText = document.getElementById('output');
 const resultBox = document.getElementById('result-box');
 
 
