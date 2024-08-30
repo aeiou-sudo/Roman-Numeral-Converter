@@ -1,5 +1,5 @@
-const numberInput = document.getElementById('number-input');
-const convertButton = document.getElementById('convert-button');
+const numberInput = document.getElementById('number');
+const convertButton = document.getElementById('convert-btn');
 const resultText = document.getElementById('result-text');
 const resultBox = document.getElementById('result-box');
 
@@ -39,6 +39,8 @@ const parseInput = input => {
         resultText.innerText = "Please enter a valid number";
     } else if(parseNumber >= 4000) {
         resultText.innerText = "Please enter a number less than or equal to 3999";
+    } else if(parseNumber <= 0) {
+        resultText.innerText = "Please enter a number greater than or equal to 1";
     }
      else {
         resultText.innerText = convertToRoman(parseInt(input.value));

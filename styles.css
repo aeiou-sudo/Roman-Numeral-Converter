@@ -57,7 +57,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.result h2 {
+.result .result-text {
   font-size: 1rem;
   letter-spacing: 2px;
   font-weight: normal;
