@@ -9,11 +9,14 @@ Check out the live demo here: [Roman Numeral Converter](https://aeiou-sudo.githu
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/username/roman-numeral-converter.git`
-2. Navigate to the project directory:
-    `cd roman-numeral-converter`
-3. Open the index.html file in your browser:
-   `open index.html`
+   ```bash
+   git clone https://github.com/username/roman-numeral-converter.git
+3. Navigate to the project directory:
+   ```bash
+   cd roman-numeral-converter
+5. Open the index.html file in your browser:
+   ```bash
+   open index.html
 
 Usage
 
